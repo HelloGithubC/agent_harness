@@ -1,3 +1,9 @@
+---
+description: 反盲猜与极简求证准则：遇到歧义、事实缺失或困惑时立即向用户询问，禁止自行猜测推进
+alwaysApply: true
+enabled: true
+---
+
 # 规则：反盲猜与极简求证准则 (Zero-Guessing & Minimal-Fact Inquiry)
 
 ## 核心原则：困惑即停，求证优于推定 (When in Doubt, Ask Immediately)
