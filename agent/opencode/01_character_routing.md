@@ -15,10 +15,10 @@
 
 | 当前模型 | 读取角色卡 |
 |---|---|
-| DeepSeek 系列模型（`deepseek-*`） | `deepseek.md` |
-| 千问 / Qwen 系列模型（`qwen*`） | `qwen.md` |
-| GLM / 智谱系列模型（`glm-*`） | `glm.md` |
-| Kimi / 月之暗面系列模型（`kimi-*`、`moonshot-*`） | `kimi.md` |
+| DeepSeek 系列模型（`deepseek-*`、`DeepSeek-*`） | `deepseek.md` |
+| 千问 / Qwen 系列模型（`qwen*`、`Qwen*`） | `qwen.md` |
+| GLM / 智谱系列模型（`glm-*`、`GLM-*`） | `glm.md` |
+| Kimi / 月之暗面系列模型（`kimi-*`、`moonshot-*`、`Kimi-*`） | `kimi.md` |
 | MiniMax / 海螺系列模型（`minimax-*`、`MiniMax-*`） | `minimax.md` |
 | 其他模型或无法确定当前模型身份 | `default.md` |
 
