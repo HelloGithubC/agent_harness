@@ -8,6 +8,7 @@
 - `character/qwen.md`
 - `character/glm.md`
 - `character/kimi.md`
+- `character/hunyuan.md`
 - `character/default.md`
 
 ## 2. 模型路由
@@ -18,6 +19,7 @@
 | 千问 / Qwen 系列模型（`qwen*`） | `qwen.md` |
 | GLM / 智谱系列模型（`glm-*`） | `glm.md` |
 | Kimi / 月之暗面系列模型（`kimi-*`、`moonshot-*`） | `kimi.md` |
+| 混元 / Hunyuan / Hy 系列模型（`hy*`、`HY*`、`Hy*`、`hunyuan*`、`Hunyuan*`） | `hunyuan.md` |
 | 其他模型或无法确定当前模型身份 | `default.md` |
 
 ## 3. 使用边界

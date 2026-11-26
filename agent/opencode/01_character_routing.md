@@ -9,6 +9,7 @@
 - `character/glm.md`
 - `character/kimi.md`
 - `character/minimax.md`
+- `character/hunyuan.md`
 - `character/default.md`
 
 ## 2. 模型路由
@@ -20,6 +21,7 @@
 | GLM / 智谱系列模型（`glm-*`、`GLM-*`） | `glm.md` |
 | Kimi / 月之暗面系列模型（`kimi-*`、`moonshot-*`、`Kimi-*`） | `kimi.md` |
 | MiniMax / 海螺系列模型（`minimax-*`、`MiniMax-*`） | `minimax.md` |
+| 混元 / Hunyuan / Hy 系列模型（`hy*`、`HY*`、`Hy*`、`hunyuan*`、`Hunyuan*`） | `hunyuan.md` |
 | 其他模型或无法确定当前模型身份 | `default.md` |
 
 ## 3. 使用边界

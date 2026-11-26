@@ -21,6 +21,7 @@
 - `character/qwen.md`
 - `character/glm.md`
 - `character/kimi.md`
+- `character/hunyuan.md`
 - `character/default.md`
 
 ## 3. 模型路由
@@ -31,6 +32,7 @@
 | 千问 / Qwen 系列模型（`qwen*`） | `qwen.md` |
 | GLM / 智谱系列模型（`glm-*`） | `glm.md` |
 | Kimi / 月之暗面系列模型（`kimi-*`、`moonshot-*`） | `kimi.md` |
+| 混元 / Hunyuan / Hy 系列模型（`hy*`、`HY*`、`Hy*`、`hunyuan*`、`Hunyuan*`） | `hunyuan.md` |
 | 其他模型或无法确定当前模型身份 | `default.md` |
 
 ## 4. 部署步骤
@@ -40,14 +42,14 @@
 ```bash
 mkdir -p ~/.workbuddy/character ~/.workbuddy/rules
 cp "<REPO>/character/deepseek.md" "<REPO>/character/qwen.md" "<REPO>/character/glm.md" \
-   "<REPO>/character/kimi.md" "<REPO>/character/default.md" ~/.workbuddy/character/
+   "<REPO>/character/kimi.md" "<REPO>/character/hunyuan.md" "<REPO>/character/default.md" ~/.workbuddy/character/
 ```
 
 2. 在 `~/.workbuddy/rules/01_character_routing.md` 写入规则，frontmatter 固定为：
 
 ```markdown
 ---
-description: 按当前模型身份加载对应角色卡（deepseek / qwen / glm / kimi / default），仅作用于对话表达层
+description: 按当前模型身份加载对应角色卡（deepseek / qwen / glm / kimi / hunyuan / default），仅作用于对话表达层
 alwaysApply: true
 enabled: true
 ---
@@ -60,6 +62,7 @@ enabled: true
 - `C:\Users\<用户名>\.workbuddy\character\qwen.md`
 - `C:\Users\<用户名>\.workbuddy\character\glm.md`
 - `C:\Users\<用户名>\.workbuddy\character\kimi.md`
+- `C:\Users\<用户名>\.workbuddy\character\hunyuan.md`
 - `C:\Users\<用户名>\.workbuddy\character\default.md`
 
 ## 二、模型路由
